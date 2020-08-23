@@ -1,65 +1,76 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Page from "../components/Page";
+import SocialLink from "../components/SocialLink";
+import ProjectCard from "../components/ProjectCard";
+import Footer from "../components/Footer";
+import styles from "../styles/Home.module.scss";
 
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+	return (
+		<Page title="Adrian" mainClass="indexSite">
+			<div>
+				<div className="mainheader">
+					<img
+						className="headerPfp"
+						src="https://github.com/adrianbaumgart.png"
+					/>
+					<h1 className="sitetitle">Adrian Baumgart</h1>
+					<h2>Software dev • Student</h2>
+					<SocialLink
+						name="Adrian#0001"
+						url="https://micro.alles.cx/adrian"
+						img="../static/allesLogo.png"
+					/>
+					<SocialLink
+						name="@adrianbaumgart"
+						url="https://twitter.com/adrianbaumgart"
+						img="../static/twitter.png"
+					/>
+					<SocialLink
+						name="@adrianbaumgart"
+						url="https://github.com/adrianbaumgart"
+						img="../static/github.png"
+					/>
+				</div>
+				<h1 className="sectionTitle">About</h1>
+				<p>
+					Hello! I am Adrian. I'm a self-taught developer, mainly front-end.
+					Most of the time I develop iOS apps (or destroy servers), but
+					sometimes I do some other stuff as well. You can find some projects on{" "}
+					<a href="https://github.com/adrianbaumgart" className="blueLink">
+						GitHub
+					</a>
+					.
+				</p>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+				<h1 className="sectionTitle">Projects</h1>
 
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
+				<div className={styles.grid}>
+					<ProjectCard
+						title="Spica"
+						description="An iOS client for Alles Micro"
+						url="https://github.com/SpicaApp"
+					/>
 
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+					<ProjectCard
+						title="Mira"
+						description="Mira is a note-taking app for iOS and iPadOS"
+						url="https://mira.fliney.eu"
+					/>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+					<ProjectCard
+						title="KlassenApp"
+						description="An app by a friend and me to help our class organizing their school life."
+						url="https://klassenappd.de"
+					/>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-    </div>
-  )
+					<ProjectCard
+						title="AppFall"
+						description='A multiuser shopping list for shared apartments. Developed at the "Jugend hackt" event 2018 in Heidelberg.'
+						url="https://appfall.github.io"
+					/>
+				</div>
+				<Footer />
+			</div>
+		</Page>
+	);
 }
