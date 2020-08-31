@@ -15,7 +15,7 @@ export default ({ title, children, mainClass }) => {
 			<div className="header">
 				<Link href="/">
 					<a className="headerContent">
-						<img src="http://github.com/adrianbaumgart.png" />
+						<img src="https://avatar.alles.cc/87cd0529-f41b-4075-a002-059bf2311ce7" />
 						<h2>{title}</h2>
 					</a>
 				</Link>

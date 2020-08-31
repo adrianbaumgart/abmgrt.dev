@@ -18,13 +18,13 @@ export default () => {
 					<h2>Contact Information</h2>
 					<div>Telephone: +4915165909306</div>
 					<div>
-						E-Mail:
+						E-Mail:{" "}
 						<a href="mailto:adrian@abmgrt.dev" target="_blank">
 							adrian@abmgrt.dev
 						</a>
 					</div>
 					<div>
-						Internet address:
+						Internet address:{" "}
 						<a href="https://abmgrt.dev" target="_blank">
 							https://abmgrt.dev
 						</a>

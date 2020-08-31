@@ -1,7 +1,10 @@
-export default ({ name, url, img }) => {
+export default ({ name, url, img, darkimg }) => {
 	return (
 		<div className="sociallink">
-			<img src={img} />
+			<picture>
+				<source srcset={darkimg} media="(prefers-color-scheme: dark)" />
+				<img src={img} />
+			</picture>
 			<a href={url}>{name}</a>
 		</div>
 	);

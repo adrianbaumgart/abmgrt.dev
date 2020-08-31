@@ -9,9 +9,9 @@ export default () => {
 					<h1 className="sitetitle">Privacy Policy</h1>
 					<p>Effective date: August 23, 2020</p>
 					<p>
-						Adrian Baumgart ("us", "we", or "our") operates the
-						https://abmgrt.dev website (hereinafter referred to as the
-						"Service").
+						Adrian Baumgart ("us", "we", or "our") operates the{" "}
+						<a href="https://abmgrt.dev">https://abmgrt.dev</a> website
+						(hereinafter referred to as the "Service").
 					</p>
 					<p>
 						This page informs you of our policies regarding the collection, use,
@@ -200,10 +200,12 @@ export default () => {
 						us:
 					</p>
 					<ul>
-						<li>By email: adrian@abmgrt.dev</li>
-						<li>By visiting this page on our website: https://abmgrt.dev</li>
-
-						<li>By phone number: +4915165909306</li>
+						<li>
+							By email: <a href="mailto:adrian@abmgrt.dev">adrian@abmgrt.dev</a>
+						</li>
+						<li>
+							By phone number: <a href="tel:+4915165909306">+4915165909306</a>
+						</li>
 					</ul>
 					<p></p>
 					Our Privacy Policy for Adrian Baumgart Website is created with the

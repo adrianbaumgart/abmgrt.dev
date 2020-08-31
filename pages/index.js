@@ -11,7 +11,7 @@ export default function Home() {
 				<div className="mainheader">
 					<img
 						className="headerPfp"
-						src="https://github.com/adrianbaumgart.png"
+						src="https://avatar.alles.cc/87cd0529-f41b-4075-a002-059bf2311ce7"
 					/>
 					<h1 className="sitetitle">Adrian Baumgart</h1>
 					<h2>Software dev • Student</h2>
@@ -19,16 +19,19 @@ export default function Home() {
 						name="Adrian#0001"
 						url="https://micro.alles.cx/adrian"
 						img="../static/allesLogo.png"
+						darkimg="../static/allesLogo.png"
 					/>
 					<SocialLink
 						name="@adrianbaumgart"
 						url="https://twitter.com/adrianbaumgart"
 						img="../static/twitter.png"
+						darkimg="../static/twitter.png"
 					/>
 					<SocialLink
 						name="@adrianbaumgart"
 						url="https://github.com/adrianbaumgart"
 						img="../static/github.png"
+						darkimg="../static/github_light.png"
 					/>
 				</div>
 				<h1 className="sectionTitle">About</h1>
