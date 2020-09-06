@@ -11,7 +11,8 @@ export default function Home() {
 				<div className="mainheader">
 					<img
 						className="headerPfp"
-						src="https://avatar.alles.cc/87cd0529-f41b-4075-a002-059bf2311ce7"
+						//src="https://avatar.alles.cc/87cd0529-f41b-4075-a002-059bf2311ce7"
+						src="https://github.com/adrianbaumgart.png"
 					/>
 					<h1 className="sitetitle">Adrian Baumgart</h1>
 					<h2>Software dev • Student</h2>
