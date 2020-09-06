@@ -6,6 +6,22 @@ import styles from "../styles/Home.module.scss";
 
 export default function Home() {
 	return (
+		<div>
+			<h1>eta s0n</h1>
+			<div>
+				<a href="https://go.abmgrt.dev/hbVgep" target="_blank">
+					Load website
+				</a>
+			</div>
+			<div>
+				<a href="/privacy">Privacy</a>
+			</div>
+			<div>
+				<a href="/legaldisclosure">Legal disclosure</a>
+			</div>
+		</div>
+	);
+	/*return (
 		<Page title="Adrian" mainClass="indexSite">
 			<div>
 				<div className="mainheader">
@@ -76,5 +92,5 @@ export default function Home() {
 				<Footer />
 			</div>
 		</Page>
-	);
+	);*/
 }
