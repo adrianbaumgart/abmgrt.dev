@@ -70,12 +70,20 @@ export default () => {
 					<p>Never gonna make you worried</p>
 					<p>Never gonna break the law</p>
 					<p>Never gonna tell a lie and hurt you</p>
-					<p>Never gonna steal your data</p>
-					<p>Never gonna sell it to Facebook</p>
-					<p>Never gonna use data for something harmful</p>
-					<p>Never gonna make you worried</p>
-					<p>Never gonna break the law</p>
-					<p>Never gonna tell a lie and hurt you</p>
+
+					<p>Never gonna give you my data</p>
+					<p>But just in case, here it is:</p>
+					<p>Never gonna call me at</p>
+					<p>
+						<a href="tel:+4915165909306">+4915165909306</a>
+					</p>
+					<p>Never gonna send me an email</p>
+					<p>But I will reply</p>
+					<p>
+						Send it to <a href="mailto:lea@abmgrt.dev">lea@abmgrt.dev</a>
+					</p>
+					<p>And that's it!</p>
+
 					<p>----------------</p>
 					<div>
 						<p>
