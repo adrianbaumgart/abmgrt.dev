@@ -25,7 +25,7 @@ export default () => {
 					</p>
 					<p>We're no strangers to privacy</p>
 					<p>You know your rights and so do I</p>
-					<p>A full commitment's what I'm collecting</p>
+					<p>Transparency and trust is what I want</p>
 					<p>You wouldn't get this from any other site</p>
 					<p>I just wanna tell you what I'm doing</p>
 					<p>Gotta make you understand</p>
