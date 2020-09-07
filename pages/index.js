@@ -14,7 +14,10 @@ export default function Home() {
 				</a>
 			</div>
 			<div>
-				<a href="/privacy">Privacy</a>
+				<a href="/privacy">Good Privacy Policy</a>
+			</div>
+			<div>
+				<a href="/privacy2">Legally correct Privacy (ew)</a>
 			</div>
 			<div>
 				<a href="/legaldisclosure">Legal disclosure</a>
