@@ -6,20 +6,20 @@ import styles from "../styles/Home.module.scss";
 
 export default function Home() {
 	return (
-		<div>
+		<div className={styles.index}>
 			<h1>eta s0n</h1>
-			<div>
+			<div className={styles.index}>
 				<a href="https://go.abmgrt.dev/hbVgep" target="_blank">
 					Load website
 				</a>
 			</div>
-			<div>
+			<div className={styles.index}>
 				<a href="/privacy">Good Privacy Policy</a>
 			</div>
-			<div>
+			<div className={styles.index}>
 				<a href="/privacy2">Legally correct Privacy Policy (ew)</a>
 			</div>
-			<div>
+			<div className={styles.index}>
 				<a href="/legaldisclosure">Legal disclosure</a>
 			</div>
 		</div>
