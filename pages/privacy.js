@@ -7,7 +7,22 @@ export default () => {
 			<div>
 				<div className="privacypolicy">
 					<h1 className="sitetitle">Never gonna give up your Privacy</h1>
-					<p>Effective date: September 07, 2020</p>
+
+					<p>-------</p>
+					<p>
+						<a
+							href="https://www.youtube.com/watch?v=graKroRK8Hg"
+							target="_blank"
+						>
+							Listen to the instrumental here
+						</a>
+					</p>
+					<p>-------</p>
+					<p>
+						<i>
+							<u>Effective date: September 07, 2020</u>
+						</i>
+					</p>
 					<p>We're no strangers to privacy</p>
 					<p>You know your rights and so do I</p>
 					<p>A full commitment's what I'm collecting</p>
@@ -87,8 +102,17 @@ export default () => {
 					<p>----------------</p>
 					<div>
 						<p>
-							If you like legal texts,{" "}
+							If you like legal stuff,{" "}
 							<a href="/privacy2">here is the other privacy policy</a>
+						</p>
+					</div>
+					<p>----------------</p>
+					<div>
+						<p>
+							Disclaimer: This is just a joke. This is <u>not</u> a real privacy
+							policy that complies with all laws (probably). You can read the
+							real privacy policy <a href="/privacy2">here</a>. However, i tried
+							to cover everything important in this version :D
 						</p>
 					</div>
 				</div>
