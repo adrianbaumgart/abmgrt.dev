@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/leabmgrt
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://abmgrt.dev
+  * I am leabmgrt (https://keybase.io/leabmgrt) on keybase.
+  * I have a public key ASBww-3ntPx4StL87VsAKM6nCJjLLMHfI1gI-R3AedkIMQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012070c3ede7b4fc784ad2fced5b0028cea70898cb2cc1df235808f91dc079d908310a",
+      "host": "keybase.io",
+      "kid": "012070c3ede7b4fc784ad2fced5b0028cea70898cb2cc1df235808f91dc079d908310a",
+      "uid": "b0cb9f3efb039912d0a094a388ded919",
+      "username": "leabmgrt"
+    },
+    "merkle_root": {
+      "ctime": 1605123341,
+      "hash": "760722ec4c49f8ca841b3680139da1d99f7b217a0c3db4dde3162923be0ef26c8c7c133bd7439ea05d268809eb2a1a335924904f72f8bd0a2489f0cc8aa413cf",
+      "hash_meta": "92c637f4fb87dc6aff32fd3bbc2bc1067e53b101b26dcae1d28d748b7a267ae0",
+      "seqno": 18094070
+    },
+    "service": {
+      "entropy": "4qpcTlpQAgvOsQ34oaT/hTeB",
+      "hostname": "abmgrt.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1605123369,
+  "expire_in": 504576000,
+  "prev": "b25c103c51b585574b5dd697423af466e65b39e59106cdd4ab912641aba3d9c7",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgcMPt57T8eErS/O1bACjOpwiYyyzB3yNYCPkdwHnZCDEKp3BheWxvYWTESpcCB8QgslwQPFG1hVdLXdaXQjr0ZuZbOeWRBs3Uq5EmQauj2cfEIPmeicnkEPqhUP5MRad2Kqng3Wja+EnKRgNETxFULEZIAgHCo3NpZ8RAvgj0ORwnVvgOQot1ID3cHYho69NxwPagmlGrOZjKyDnUDShkhMFIUeCvyHkDvaBh658OV9HNewTM3WAkoejABahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHkjeGbF0FB7McyMyJZMMtIDSIKZWXLAPwfRu7GfNOwLo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/leabmgrt
+
+==================================================================
